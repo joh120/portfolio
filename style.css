@@ -1,0 +1,40 @@
+   * {
+            background-color:antiquewhite;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: rgb(19, 42, 59);
+        }
+
+         a {
+            color:rgb(19, 42, 59);
+            text-decoration: none;
+        }
+
+        header {
+            margin-bottom: 6rem;
+            display: flex;
+            align-items: center;
+            gap: 7rem;
+           
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content:space-between;
+            gap: 20rem;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 8rem;
+        }
+        .footer {
+            margin-top: 10rem;
+            margin-bottom: -5rem;
+        }
+    
